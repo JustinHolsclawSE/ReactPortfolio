@@ -2,11 +2,11 @@ import { useState } from "react";
 // import emailjs from "emailjs-com";
 
 function Contact() {
-  const [form, setForm] = useState({
-    name: "",
-    email: "",
-    message: "",
-  });
+  // const [form, setForm] = useState({
+  //   name: "",
+  //   email: "",
+  //   message: "",
+  // });
 
   // const handleSubmit = (e) => {
   //   e.preventDefault();
