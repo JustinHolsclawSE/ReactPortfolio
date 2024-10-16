@@ -10,7 +10,7 @@ function Header() {
 
   return (
     <div className="container mx-auto flex justify-end">
-      <div className="relative inline-block text-left justify-right pr-4 pt-4">
+      <div className="relative inline-block text-left justify-right pr-4 pt-4 mb-4">
         {/* Hamburger Button */}
         <button
           type="button"
