@@ -26,7 +26,7 @@ var projects = [
             projects.map((project:Project) => {
                 return(
                     <div className="p-4 m-4 bg-white rounded-xl shadow-xl">
-                        <img src={project.image} className="object-fill sm:w-80"/>
+                        <img src={project.image} className="object-fill sm:w-80" alt="filler"/>
                         <h1 className="font-bold text-2xl">{project.title}</h1>
                         <p>{project.description}</p>
                     </div>

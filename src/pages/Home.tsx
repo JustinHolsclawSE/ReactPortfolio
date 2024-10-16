@@ -20,6 +20,7 @@ function Home() {
         <div className="shadow-md lg:col-start-4 lg:col-end-5 md:col-start-2">
           <img
             src="../images/LinkinProfile.jpg"
+            alt="filler"
             className="rounded-xl"/>
         </div>
       </div>
