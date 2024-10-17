@@ -12,8 +12,8 @@ function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault();
     emailjs
-      .sendForm("service_9qlr632", "template_wz5p2qv", e.target, {
-        publicKey: "3upJF7XreZmZSLaho",
+      .sendForm(process.env.EMAILJS_SERVICE_ID, secrets.EMAILJS_TEMPLATE_ID, e.target, {
+        publicKey: secrets.EMAILJS_PUBLIC_KEY,
       })
       .then(
         (result) => {
