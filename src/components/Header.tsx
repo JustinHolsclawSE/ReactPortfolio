@@ -11,15 +11,11 @@ function Header() {
   return (
     <div className="container mx-auto flex justify-end">
       <div className="relative inline-block text-left justify-right pr-4 pt-4 mb-4">
-        {/* Hamburger Button */}
         <button
           type="button"
           className="inline-flex items-center justify-center w-10 h-10 rounded-md bg-blue-200 hover:bg-gray-300 focus:outline-none focus:ring-indigo-500"
           onClick={toggleMenu}
-          // onMouseEnter={toggleMenu}
-          // onMouseLeave={toggleMenu}
         >
-          {/* Three Bars Icon */}
           <svg
             className="w-6 h-6 text-gray-700"
             fill="none"
@@ -35,7 +31,6 @@ function Header() {
           </svg>
         </button>
 
-        {/* Dropdown Menu */}
         {isOpen && (
           <div className="origin-top-right absolute right-0 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5">
             <div
